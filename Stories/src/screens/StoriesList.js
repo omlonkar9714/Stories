@@ -20,7 +20,7 @@ class StoriesList extends Component {
           }}>
           StoriesList
         </Text>
-        <Text>{JSON.stringify(StoriesData)}</Text>
+        <Text>{JSON.stringify(StoriesData[0])}</Text>
       </View>
     );
   }
