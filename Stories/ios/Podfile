@@ -12,6 +12,8 @@ target 'Stories' do
     :hermes_enabled => false
   )
 
+  pod 'RNFastImage', :path => '../node_modules/react-native-fast-image'
+
   target 'StoriesTests' do
     inherit! :complete
     # Pods for testing

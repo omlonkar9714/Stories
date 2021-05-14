@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {View, Text, StatusBar} from 'react-native';
+import ViewImagesComponent from '../components/ViewImagesComponent';
 
 class ViewStories extends Component {
   constructor(props) {
@@ -9,9 +10,11 @@ class ViewStories extends Component {
 
   render() {
     return (
-      <View>
+      <View style={{flex: 1}}>
         <StatusBar hidden={true}></StatusBar>
-        <Text> ViewStories </Text>
+        {/* <Text>{this.props.route.params.photos}</Text> */}
+        <ViewImagesComponent
+          photos={this.props.route.params.photos}></ViewImagesComponent>
       </View>
     );
   }

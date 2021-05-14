@@ -1,45 +1,171 @@
 import RandomProfile from 'random-profile-generator';
+import Faker from 'faker';
 
 export const StoriesData = [
   {
-    name: RandomProfile.name(),
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
     photos: [
-      RandomProfile.avatar(),
-      RandomProfile.avatar(),
-      RandomProfile.avatar(),
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
     ],
   },
   {
-    name: RandomProfile.name(),
-    photos: [RandomProfile.avatar()],
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [{image: Faker.image.image(), id: Math.random() + ''}],
   },
   {
-    name: RandomProfile.name(),
-    photos: [RandomProfile.avatar(), RandomProfile.avatar()],
-  },
-  {
-    name: RandomProfile.name(),
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
     photos: [
-      RandomProfile.avatar(),
-      RandomProfile.avatar(),
-      RandomProfile.avatar(),
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
     ],
   },
   {
-    name: RandomProfile.name(),
-    photos: [RandomProfile.avatar()],
-  },
-  {
-    name: RandomProfile.name(),
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
     photos: [
-      RandomProfile.avatar(),
-      RandomProfile.avatar(),
-      RandomProfile.avatar(),
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
     ],
   },
   {
-    name: RandomProfile.name(),
-    photos: [RandomProfile.avatar()],
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [{image: Faker.image.image(), id: Math.random() + ''}],
   },
-  {name: RandomProfile.name(), photos: [RandomProfile.avatar()]},
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+    ],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [{image: Faker.image.image(), id: Math.random() + ''}],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [{image: Faker.image.image(), id: Math.random() + ''}],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+    ],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [{image: Faker.image.image(), id: Math.random() + ''}],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+    ],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+    ],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [{image: Faker.image.image(), id: Math.random() + ''}],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+    ],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [{image: Faker.image.image(), id: Math.random() + ''}],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [{image: Faker.image.image(), id: Math.random() + ''}],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+    ],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [{image: Faker.image.image(), id: Math.random() + ''}],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+    ],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+    ],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [{image: Faker.image.image(), id: Math.random() + ''}],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+      {image: Faker.image.image(), id: Math.random() + ''},
+    ],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [{image: Faker.image.image(), id: Math.random() + ''}],
+  },
+  {
+    id: Math.random() + '',
+    name: Faker.name.firstName(),
+    photos: [{image: Faker.image.image(), id: Math.random() + ''}],
+  },
 ];
